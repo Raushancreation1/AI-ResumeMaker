@@ -1,0 +1,47 @@
+# ==============================
+# Environment Variables (SECRET)
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Node Modules
+# ==============================
+node_modules/
+**/node_modules/
+
+# ==============================
+# Build Output
+# ==============================
+dist/
+build/
+**/dist/
+**/build/
+
+# ==============================
+# Strapi (Backend)
+# ==============================
+.tmp/
+.cache/
+**/exports/
+**/.strapi/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==============================
+# OS / Editor
+# ==============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
